@@ -16,7 +16,8 @@ import { Info } from './useRef/simple-useRef';
 import { InputEL } from './useRef/DomRef';
 import { MutableRef } from './useRef/MutableRef';
 import { CounterClass } from './class-component/Counter';
-import Identity from './fetch-from-api/Identity';
+import Identity from './interface/Identity';
+import Fetch from './fetch-from-api/FetchingData';
 
 function App() {
   return (
@@ -49,8 +50,9 @@ function App() {
       {/* <Info/> */}
       {/* <InputEL/> */}
       {/* <MutableRef/> */}
-      <Identity/>
-      <CounterClass message ="Harry clicked button "/>
+      {/* <Identity/> */}
+      {/* <CounterClass message ="Harry clicked button "/> */}
+      <Fetch/>
     </div>
   );
 }
