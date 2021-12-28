@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { FetchInterface } from "./FetchInterface";
+import { FetchInterface } from "./FetchDogsInterface";
 
 const Fetch = () => {
     const Url = "https://dog.ceo/api/breeds/image/random";

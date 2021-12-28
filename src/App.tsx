@@ -17,7 +17,8 @@ import { InputEL } from './useRef/DomRef';
 import { MutableRef } from './useRef/MutableRef';
 import { CounterClass } from './class-component/Counter';
 import Identity from './interface/Identity';
-import Fetch from './fetch-from-api/FetchingData';
+import Fetch from './fetch-from-api/DogsData';
+import BitCoinData from './fetch-from-api/BitCoinData';
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <MutableRef/> */}
       {/* <Identity/> */}
       {/* <CounterClass message ="Harry clicked button "/> */}
-      <Fetch/>
+      {/* <Fetch /> */}
+      <BitCoinData/>
     </div>
   );
 }
